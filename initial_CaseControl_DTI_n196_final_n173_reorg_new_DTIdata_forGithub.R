@@ -12,11 +12,6 @@
 ###########################################################################################################
 
 dat <- read.csv(file.choose(),header=T)
-datt <- dat[1:196,] ## remove extra rows
-dattt <- datt[1:140] ## remove extra columns
-dat <- dattt
-remove(datt)
-remove(dattt)
 
 ## for both stress tasks, not using first set of practice data
 ## for math(pasat) task this is set "1" ... using sets: "2" "2x" "3"
